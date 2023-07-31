@@ -1,0 +1,261 @@
+:root {
+    --background: rgba(244, 247, 249, 0.90);
+    --background-btn: rgba(10, 151, 212, 0.10);
+    --orange: #E98600;
+    --blue-light: #0A97D4;
+    --dark-blue: #054667;
+    --text-body: #636C72;
+    --footer: #054667;
+    --white: #ffffff;
+    --black: #000000;
+  }
+
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0!important;
+}
+
+img {
+    width: -webkit-fill-available;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 90%;
+}
+
+.reset {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+h2 {
+    color: var(--dark-blue);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112.6%;
+}
+
+.display {
+    display: block!important;
+}
+
+.logo {
+    width: 70%;
+    margin: 90px 0 50px 0;
+}
+
+.desc-title  {
+    color: var(--blue-light);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-blue {
+    background: var(--blue-light);
+    border-radius: 10px;
+    color: var(--white);
+    padding: 18px 55px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 50%!important;
+    border: none!important;
+}
+
+.title-orange {
+    color: var(--orange)!important;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desc {
+    color: var(--text-body);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.bgg {
+    background: #FCFDFD;
+}
+
+.e1 {
+    background: #FCFDFD;
+    padding: 10%;
+}
+
+.d1 {
+    background:#F5F8FA;
+    padding: 10%;
+}
+
+.pd-60 {
+    padding: 96px 0!important;
+}
+
+.mt-30 {
+    margin-top: 30px!important;
+}
+
+.mt-60 {
+    margin-top: 60px!important;
+}
+
+.mt-100 {
+    margin-top: 100px!important;
+}
+
+
+.bg-blue {
+    background: url(../images/image31.png), var(--blue-light)!important;
+    /* background-image: ; */
+}
+
+.bg-dark {
+    background: var(--dark-blue);
+}
+
+.white {
+    color: var(--white)!important;
+}
+
+.black {
+    color: var(--black)!important;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+
+.number {
+    border-radius: 5px;
+    padding: 15px 22px;
+    background: rgba(5, 70, 103, 0.40);
+    margin-right: 15px;
+}
+
+.list-number {
+    color: #FFF;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 40px!important;
+    display: block;
+}
+
+.btn-out {
+    border-radius: 10px;
+    border: 3px solid #FFF;
+    color: var(--white) ;
+    background: transparent;
+    width: 35%;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.btn-out:hover{
+    border: 3px solid var(--white);
+    color: var(--blue-light) ;
+    background: var(--white);
+}
+
+@media only screen and (max-width: 33.75em) {  /* 540px */
+    .btn-blue {
+        width: 70%!important;
+    }
+
+    .btn-out {
+        width: 85%!important;
+    }
+}
+
+.brands img {
+    width: 80%;
+
+}
+
+input[type="text"] {
+    height: 52px;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 35px;
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
+.control-label {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 34px */
+}
+
+.control-label a {
+    text-decoration-line: underline;
+    font-weight: 700;
+    color: #000;
+}
+
+::placeholder {
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+
+hr {
+    border-top: 0.5px solid #D9D9D9;
+    margin-top: 100px;
+}
+
+footer {
+    padding: 22px 0;
+}
