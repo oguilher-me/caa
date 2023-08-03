@@ -1,0 +1,406 @@
+:root {
+    --background:#121212;
+    --orange: #E98600;
+    --orange2: #F49C24;
+    --orange3: #F9B143;
+    --gray: #121212;
+    --text-body: #636C72;
+    --white: #ffffff;
+    --black: #000000;
+    --light-gray: #F5F8F9;
+  }
+
+body {
+    font-family: Open Sans, sans-serif;
+    margin: 0!important;
+}
+
+/* img {
+    width: -webkit-fill-available;
+} */
+
+p {
+    color: var(--text-body);
+}
+
+.pd-60 {
+    padding: 96px 0!important;
+}
+
+.pe-30 {
+    padding-left: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px!important;
+}
+
+.mt-10 {
+    margin-top: 10px!important;
+}
+
+.m0 {
+    margin: 0px!important;
+}
+
+.mt-60 {
+    margin-top: 60px!important;
+}
+
+.mt-100 {
+    margin-top: 100px!important;
+}
+
+
+.db {
+    display: block;
+}
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    width: 90%;
+}
+
+.reset {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.desc-title {
+    color: #121212;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bg-white {
+    background: var(--white);
+}
+
+.bg-gray {
+    background: url('../images/hero.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+.bg-lgray {
+    background: var(--light-gray);
+}
+
+.bg-orange {
+    background: var(--orange);
+}
+.bg-orange2 {
+    background: var(--orange2);
+}
+.bg-orange3 {
+    background: var(--orange3);
+}
+
+.mtn-30 {
+    margin-top: -30%;
+}    
+
+.card {
+    border-radius: 24px;
+    padding: 90px 45px;
+}
+
+.card hr {
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.card h3 {
+    min-height: 50px;
+}
+
+.card .desc {
+    min-height: 135px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+
+.card img {
+    /* margin-top: 20px; */
+    width: 128px;
+}
+
+.text-white {
+    color: var(--white)!important;
+}
+
+.text-black {
+    color: var(--black)!important;
+}
+
+.orange {
+    color: var(--orange2)!important;
+}
+
+
+h2 {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 112.6%;
+}
+
+h3 {    
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.display {
+    display: block!important;
+}
+
+.logo {
+    width: 50%;
+    margin: 0px 0 20px 0;
+}
+
+.btn-orange {
+    background: var(--orange);
+    border-radius: 30px;
+    color: var(--white);
+    padding: 18px 55px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none!important;
+}
+
+.btn-out {
+    background: transparent;
+    border-radius: 30px;
+    color: var(--orange);
+    padding: 18px 55px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%!important;
+    border: 1px solid var(--orange);
+    cursor: pointer;
+}
+
+form {
+    padding: 65px 45px;
+    border-radius: 17px;
+    border: 1px solid #D9D9D9;
+}
+
+form .btn-orange {
+    width: 100%!important;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+    .pr-30 {
+        padding-right: 10%;
+    }
+}
+@media only screen and (max-width: 33.75em) {  /* 540px */
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .col-md-1 {
+        width: 20%;
+    }
+
+    .col-md-11 {
+        width: 70%;
+    }
+
+    .mtn-30 {
+        margin-top: 0%;
+    } 
+
+    .reset-mobile {
+        margin: 0!important;
+        padding: 0!important;
+        width: 100%;
+    }
+
+    .pe-30 {
+        padding: 0 40px;
+        margin-bottom: 60px;
+    }
+
+    .itens .text-left, .itens .text-right {
+        text-align: center!important;
+    }
+
+    .itens img {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .itens .black {
+        text-align: center!important;
+    }
+}
+
+
+
+.title-orange {
+    color: var(--orange)!important;
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desc {
+    color: var(--gray);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    margin-top: 40px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.pd-60 {
+    padding: 96px 0!important;
+}
+
+.mt-30 {
+    margin-top: 30px!important;
+}
+
+.mt-60 {
+    margin-top: 60px!important;
+}
+
+.mt-100 {
+    margin-top: 100px!important;
+}
+
+
+
+.bg-dark {
+    background: var(--black);
+}
+
+
+.text-center {
+    text-align: center!important;
+}
+.text-right {
+    text-align: right!important;
+}
+.text-left {
+    text-align: left!important;
+}
+
+
+.number {
+    border-radius: 5px;
+    padding: 15px 22px;
+    background: rgba(5, 70, 103, 0.40);
+    margin-right: 15px;
+}
+
+.list-number {
+    color: var(--black);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 10px;
+}
+
+.btn-out:hover{
+    border: 1px solid var(--orange);
+    color: var(--white) ;
+    background: var(--orange);
+}
+
+
+
+.brands img {
+    width: unset;
+}
+
+input[type="text"] {
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid #979797;
+    margin-bottom: 35px;
+    color: var(--background);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    margin-top: 10px;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:middle;
+}
+
+.control-label {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%; /* 34px */
+}
+
+.control-label a {
+    text-decoration-line: underline;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+::placeholder {
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+}
+
+footer {
+    padding: 22px 0;
+}
